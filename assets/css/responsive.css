@@ -1,0 +1,198 @@
+/* ========================================
+        Ukuran Layar Ipad
+========================================= */
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    #hero-content{
+        overflow-x: hidden;
+    }
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    .title-section{
+        font-size: 24px;
+        text-align: center;
+    }
+    .title-content{
+        font-size: 20px;
+    }
+    .title-kategori{
+        font-size: 16px;
+    }
+    .paragraf-content{
+        font-size: 12px;
+    }
+    .img-livechat {
+        width: 55px;
+        height: 55px;
+    }
+    .img-lapak{
+        width: 240px;
+        height: 240px;
+    }
+    .img-categori{
+        height: 120px !important;
+        width: 120px !important;
+    }
+    .row-kategori{
+        border-radius: 85px 85px 0 0 !important;
+        margin-top: 15px;
+    }
+    .card-skala{
+        width: 160px;
+        height: 260px;
+        margin: 10px;
+    }
+    .martop-6{
+        margin-top: 10px;
+    }
+    .img-carousel-prop{
+        width: 48%;
+        height: auto;
+        padding: 5px;
+    }
+
+}
+/* ========================================
+        Ukuran Layar Smartphone
+========================================= */
+@media screen and (max-width:480px) {
+/* -----------------------------
+            ROOT
+-------------------------------- */
+    #hero-content{
+        overflow-x: hidden;
+    }
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    .title-section{
+        font-size: 24px;
+        text-align: center;
+    }
+    .title-content{
+        font-size: 20px;
+        text-align: center;
+    }
+    .title-kategori{
+        font-size: 16px;
+    }
+    .paragraf-content{
+        font-size: 12px;
+    }
+    .img-livechat {
+        width: 55px;
+        height: 55px;
+    }
+    .img-lapak{
+        width: 240px;
+        height: 240px;
+    }
+/* -----------------------------
+            SECTION
+-------------------------------- */
+    .img-categori{
+        height: 120px;
+        width: 120px;
+    }
+    .row-kategori{
+        border-radius: 85px 85px 0 0 !important;
+        margin-top: 15px;
+    }
+    .card-skala{
+        width: 180px;
+        height: 250px;
+        margin: 10px;
+    }
+    .martop-6{
+        margin-top: 10px;
+    }
+    .img-carousel-prop{
+        width: 48%;
+        height: auto;
+        padding: 5px;
+    }
+}
+/* ========================================
+        Ukuran Layar Smartphone Kecil
+========================================= */
+@media screen and (max-width: 375px) {
+/* -----------------------------
+            ROOT
+-------------------------------- */
+    #hero-content{
+        overflow-x: hidden;
+    }
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    .img-categori{
+        height: 120px !important;
+        width: 120px !important;
+    }
+    .title-section{
+        font-size: 22px;
+        text-align: center;
+    }
+    .title-content{
+        font-size: 18px;
+    }
+    .title-kategori{
+        font-size: 14px;
+    }
+    .paragraf-content{
+        font-size: 11px;
+    }
+    .card-skala{
+        width: 160px;
+        height: 240px;
+        margin: 10px;
+    }
+    .martop-6{
+        margin-top: 15px;
+    }
+}
+/* ========================================
+        Ukuran Layar Smartphone Mini
+========================================= */
+@media screen and (max-width: 320px) {
+/* -----------------------------
+            ROOT
+-------------------------------- */
+    #hero-content{
+        overflow-x: hidden;
+    }
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    .title-section{
+        font-size: 18px;
+        text-align: center;
+    }
+    .title-content{
+        font-size: 16px;
+    }
+    .title-kategori{
+        font-size: 12px;
+    }
+    .paragraf-content{
+        font-size: 9px;
+    }
+    .card-skala{
+        width: 140px;
+        height: 220px;
+        margin: 10px;
+    }
+    .martop-6{
+        margin-top: 0;
+    }
+    .title-partner{
+        font-size: 18px !important;
+    }
+}
